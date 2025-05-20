@@ -22,7 +22,7 @@ public class StudentList {
        //fill in 4 student names before running
        for(Student s: studentList)
        {
-           System.out.println(s.getName());
+           System.out.println(s.getName(1));
        }
         
     }
