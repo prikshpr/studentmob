@@ -14,7 +14,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class Student 
 {
+
+    public String getCar() {
+        return car;
+    }
+
+    public void setCar(String car) {
+        this.car = car;
+    }
     private String name;
+    private String car;
 
     /**
      * @return the name
